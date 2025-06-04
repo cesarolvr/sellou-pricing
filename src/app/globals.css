@@ -26,6 +26,17 @@
   --font-mono: var(--font-geist-mono);
 }
 
+/* Custom text selection styles */
+::selection {
+  background-color: var(--foreground-secondary);
+  color: var(--foreground-dark);
+}
+
+::-moz-selection {
+  background-color: var(--foreground-secondary);
+  color: var(--foreground-dark);
+}
+
 body {
   background: var(--background);
   color: var(--foreground);

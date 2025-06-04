@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sellou Pricing
+
+A modern, interactive pricing page built with Next.js, Tailwind CSS, and Framer Motion. Features smooth animations, 3D hover effects, and a responsive design.
+
+## Features
+
+- 🎨 Modern and clean UI design
+- ✨ Smooth animations and transitions using Framer Motion
+- 🎮 Interactive 3D hover effects on pricing cards
+- 📱 Fully responsive design
+- 🌙 Dark mode support
+- ⚡ Built with Next.js and Tailwind CSS
+- 🔄 Monthly/Yearly pricing toggle
+- 💰 Dynamic pricing calculations
+- 🎯 Feature comparison lists
+
+## Tech Stack
+
+- [Next.js](https://nextjs.org/) - React framework
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [Framer Motion](https://www.framer.com/motion/) - Animation library
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+- [React CountUp](https://github.com/glennreyes/react-countup) - Number animations
 
 ## Getting Started
 
-First, run the development server:
-
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone git@github.com:cesarolvr/sellou-pricing.git
+cd sellou-pricing
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+yarn install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+yarn dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+src/
+├── app/              # Next.js app directory
+├── components/       # React components
+│   ├── Button/      # Button component
+│   └── Pricing/     # Pricing components
+├── data/            # Static data
+└── types/           # TypeScript types
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Customization
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Colors and Theme
 
-## Deploy on Vercel
+The project uses CSS variables for theming. You can customize the colors by modifying the variables in your global CSS file:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```css
+:root {
+  --foreground: #your-color;
+  --foreground-primary: #your-color;
+  --foreground-secondary: #your-color;
+  --foreground-tertiary: #your-color;
+}
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Pricing Plans
+
+Pricing plans are defined in `src/data/pricing.ts`. You can modify the plans, features, and prices by updating this file.
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+- César Oliveira - [@cesarolvr](https://github.com/cesarolvr)

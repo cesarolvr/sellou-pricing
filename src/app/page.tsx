@@ -23,7 +23,7 @@ export default function Home() {
         className={classNames(`w-full h-full flex flex-col items-center justify-between overflow-scroll mx-auto bg-[#fff] transition-all duration-300 ease-in-out  p-7 md:p-10`, {
           "rounded-4xl" : isLoaded,
           "rounded-none" : !isLoaded,
-          "scale-x-98 scale-y-96" : isLoaded,
+          "scale-x-93 scale-y-96 md:scale-x-98 md:scale-y-96" : isLoaded,
         })}
       >
         <PricingHeader
