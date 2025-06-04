@@ -16,6 +16,37 @@ A modern, interactive pricing page built with Next.js, Tailwind CSS, and Framer 
 - 💰 Dynamic pricing calculations
 - 🎯 Feature comparison lists
 
+## Design Decisions & User Experience
+
+### Inspiration
+This project's visual identity is inspired by you on [Sellou](https://sellou.com/). I was particularly impressed by the clean, modern design approach and wanted to create a pricing page that captures the same essence of simplicity and elegance while adding my own creative touches.
+
+### Visual Design
+- **Color Scheme**: Used the same pallete than Sellou
+- **Typography**: Same typography as well
+- **Spacing**: Utilized consistent spacing and padding
+
+### Interactive Elements
+- **3D Hover Effects**: Added subtle 3D transformations on hover to create depth and make the pricing cards more engaging
+- **Smooth Transitions**: Implemented smooth animations for all interactive elements to provide immediate feedback
+- **Pricing Toggle**: Created an intuitive toggle switch for monthly/yearly pricing with smooth transitions
+
+### Responsive Design
+- **Mobile-First Approach**: Designed with mobile devices in mind first, then scaled up for larger screens
+- **Adaptive Layout**: Pricing cards stack on mobile for better readability and expand on desktop for comparison
+- **Touch-Friendly**: Ensured all interactive elements are easily tappable on mobile devices
+
+### Performance
+- **Optimized Animations**: Used Framer Motion's optimized animation system for smooth performance
+- **Efficient Styling**: Leveraged Tailwind's utility classes for optimal CSS bundle size
+
+
+## Future Improvements
+- 🎨 Additional theme options and customization
+- ⚡ Performance optimizations for faster load times
+- 🧪 Comprehensive test coverage
+- 📱 Progressive Web App (PWA) support
+
 ## AI-Assisted Development
 
 This project was built with the assistance of Claude 3.7 Sonnet, an AI coding assistant. The AI helped with:
@@ -102,4 +133,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Author
 
-- Cesar Oliveira - [@cesarolvr](https://github.com/cesarolvr)
+- César Oliveira - [@cesarolvr](https://github.com/cesarolvr)
