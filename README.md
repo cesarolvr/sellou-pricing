@@ -14,6 +14,19 @@ A modern, interactive pricing page built with Next.js, Tailwind CSS, and Framer 
 - 💰 Dynamic pricing calculations
 - 🎯 Feature comparison lists
 
+## AI-Assisted Development
+
+This project was built with the assistance of Claude 3.7 Sonnet, an AI coding assistant. The AI helped with:
+
+- 🏗️ Setting up the initial project structure and configuration (And I had to delete a lot of code manually 😂)
+- 📦 Managing and installing project dependencies
+- ⚙️ Configuring some Framer Motion animations like the perspective one
+- 📝 Creating this documentation
+- 🎨 Implementing cross-browser compatible CSS styles like the :selection
+- 🔄 Setting up version control and commit management
+
+The AI provided guidance on best practices, helped debug issues, and suggested improvements throughout the development process.
+
 ## Tech Stack
 
 - [Next.js](https://nextjs.org/) - React framework
