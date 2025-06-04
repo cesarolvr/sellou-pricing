@@ -2,6 +2,8 @@
 
 A modern, interactive pricing page built with Next.js, Tailwind CSS, and Framer Motion. Features smooth animations, 3D hover effects, and a responsive design.
 
+🌐 [Live Demo](https://sellou-pricing.vercel.app/)
+
 ## Features
 
 - 🎨 Modern and clean UI design
