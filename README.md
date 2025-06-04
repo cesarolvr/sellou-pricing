@@ -16,8 +16,6 @@ A modern, interactive pricing page built with Next.js, Tailwind CSS, and Framer 
 - 💰 Dynamic pricing calculations
 - 🎯 Feature comparison lists
 
-## Design Decisions & User Experience
-
 ### Inspiration
 This project's visual identity is inspired by you on [Sellou](https://sellou.com/). I was particularly impressed by the clean, modern design approach and wanted to create a pricing page that captures the same essence of simplicity and elegance while adding my own creative touches.
 
