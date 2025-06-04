@@ -102,4 +102,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Author
 
-- César Oliveira - [@cesarolvr](https://github.com/cesarolvr)
+- Cesar Oliveira - [@cesarolvr](https://github.com/cesarolvr)
